@@ -1,0 +1,32 @@
+.rodape__titulo  {
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    color: #002F52; 
+}
+.rodape__texto {
+    margin: 0.5em 1em;
+    color: #002F52;
+    font-weight: 300;
+    font-size: 16px;
+}
+.rodape__pesquisa {
+    background-color: transparent;
+    border: 1px solid #002F52;
+    border-radius: 20px;
+    padding: 0.5em;
+    width: 90vw;
+    margin: 1em;
+}
+.rodape__pesquisa::placeholder {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: #002F52;
+    background: url(/assets/email1.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+    padding-left: 3em;
+}
+.rodape__subtitulo {
+    margin: 1em;
+}
